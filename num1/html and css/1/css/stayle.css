@@ -1,0 +1,115 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body header {
+  width: 100%;
+  height: 200px;
+  color: #334451;
+  background-color: #96cbff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: system-ui;
+  font-size: 25px;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+body section {
+  width: 100%;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: system-ui;
+  font-size: 25px;
+}
+
+body section div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+body section div.left-si {
+  background-color: #95ffeb;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section div.left-si div.link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body section div.left-si div.link ul li {
+  list-style: none;
+  color: #57c5ea;
+}
+
+body div.center {
+  border-bottom: 5px solid black;
+  background-color: #fdff94;
+}
+
+body div.r-si {
+  background-color: #95ffeb;
+  border-left: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: #96cbff;
+  color: #334451;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: system-ui;
+  font-size: 25px;
+  border-bottom: 5px solid black;
+}
+/*# sourceMappingURL=stayle.css.map */
