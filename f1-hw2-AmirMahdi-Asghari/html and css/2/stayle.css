@@ -1,0 +1,42 @@
+div {
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.red-c {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+}
+
+.grin-c {
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    left: 1380px;
+}
+
+.gray-c {
+    background-color: gray;
+    width: 150px;
+    height: 150px;
+    left: 45%;
+    top: 350px;
+}
+
+.blue-c {
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    top: 590px;
+}
+
+.p-c {
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+    left: 1380px;
+    top: 590px;
+}

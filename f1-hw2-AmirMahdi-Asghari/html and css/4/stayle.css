@@ -1,0 +1,22 @@
+div {
+    height: 150px;
+    width: 300px;
+    background-color: #0052b0;
+
+
+}
+
+.cal-2 {
+    background-image: linear-gradient(to bottom, #0052b0, #da47b4);
+}
+.c-5{
+    background-image: linear-gradient(to right, #f50707, #f56e00,#f7df00, #66f507, #0052b0, #520f41, #ff0856);
+}
+.rad-1{
+    background-image: radial-gradient(#ff0509, #fff700, #05ff33);
+
+}
+.rad-2{
+    background-image: radial-gradient(#ff0000, #fff200);
+ 
+}
