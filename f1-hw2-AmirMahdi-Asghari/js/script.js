@@ -13,7 +13,7 @@ function calculateSequence(n) {
 var n = 20;
 var sequence = calculateSequence(n);
 console.log(sequence);
-//   --------------------------------------------------------------------
+//   --------------------------------------------------------------------2
 function printArrayTypes(array) {
     for (let i = 0; i < array.length; i++) {
         console.log(typeof array[i]);
@@ -21,7 +21,7 @@ function printArrayTypes(array) {
 }
 let myArray = [1, "hello", true, [1, 2], null, { name: "mahdi" }];
 printArrayTypes(myArray);
-// -------------------------------------------------
+// -------------------------------------------------3
 
 function countVariables(...variables) {
     let count = 0;
@@ -47,19 +47,19 @@ const variable4 = [1, 2, 3];
 const variable5 = { name: "John", age: 25 };
 
 countVariables(variable1, variable2, variable3, variable4, variable5);
-//   ===================================================================================
-// function calc(num, count) {
-//     var calc = [];
+//   ===================================================================================4
+function printcalc(num, count) {
+    var calc = [];
 
-//     for (var i = 1; i <= count; i++) {
-//         calc.push(num * i);
-//     }
+    for (var i = 1; i <= count; i++) {
+        calc.push(num * i);
+    }
 
-//     console.log(calc);
-//   }
+    console.log(calc);
+  }
 
-//   printcalc( prompt("number1"),prompt("bumber2 "));
-//   ------------------------------------------------------------------------------------------------------------
+  printcalc( prompt("number1"),prompt("bumber2 "));
+//   ---------------------------------------------------------------------------------5
 function reverseArray(array) {
     let start = 0;
     let end = array.length - 1;
@@ -78,7 +78,7 @@ function reverseArray(array) {
 
 let numbers = [1, 2, 3, 4, 5];
 console.log(reverseArray(numbers));
-// -------------------------------------------------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------6
 function convertToSingleArray(arr) {
     if (arr.length === 1) {
         return arr[0];
