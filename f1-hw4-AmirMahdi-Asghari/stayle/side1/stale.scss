@@ -1,0 +1,134 @@
+$spacing: 32px;
+
+body {
+    section.all {
+
+        width: 375px;
+        height: 870px;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 10px;
+
+        // -----------------------------------------------------------
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            div {
+                h3 {
+                    font-family: monospace;
+                }
+
+                img {
+                    width: 18px;
+                }
+            }
+        }
+
+        // ----------------------------------------------------
+        section.img-prof {
+            margin: $spacing 0px 16px 0px;
+
+            div {
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+            }
+        }
+
+        // ---------------------------------------
+        section.profili-text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            h1 {
+                font-family: Comfortaa;
+                font-size: 30px;
+                margin: 0%;
+            }
+
+            h5 {
+                font-family: math;
+                font-size: 20px;
+                margin: 0;
+                margin-bottom: $spacing;
+
+            }
+        }
+
+        // ------------------------------------
+        section.buttons {
+
+            margin-bottom: 20px;
+
+            div.black {
+                background-color: black;
+                color: white;
+                font-family: system-ui;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 5px;
+
+                h2 {
+                    font-size: large;
+                    font-weight: 500;
+                }
+            }
+
+            div.border-black {
+                margin-top: 20px;
+                font-family: system-ui;
+                width: 99%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 2px solid black;
+                border-radius: 5px;
+
+                h2 {
+                    font-size: large;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        // ---------------------------------------------------------------------
+        section.imgs {
+            div {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                div {
+                    img#top {
+                        width: 160px;
+                    }
+
+                    img#but {
+                        width: 196px;
+                    }
+                }
+            }
+        }
+
+        //-----------------------------------------------
+        section.but-men {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: white;
+
+            .pluss {
+                width: 80px;
+            }
+        }
+    }
+
+}

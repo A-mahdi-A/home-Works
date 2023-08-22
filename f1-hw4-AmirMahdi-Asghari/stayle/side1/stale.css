@@ -1,0 +1,157 @@
+body section.all {
+  width: 375px;
+  height: 870px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+body section.all header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body section.all header div h3 {
+  font-family: monospace;
+}
+
+body section.all header div img {
+  width: 18px;
+}
+
+body section.all section.img-prof {
+  margin: 32px 0px 16px 0px;
+}
+
+body section.all section.img-prof div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body section.all section.profili-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body section.all section.profili-text h1 {
+  font-family: Comfortaa;
+  font-size: 30px;
+  margin: 0%;
+}
+
+body section.all section.profili-text h5 {
+  font-family: math;
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+body section.all section.buttons {
+  margin-bottom: 20px;
+}
+
+body section.all section.buttons div.black {
+  background-color: black;
+  color: white;
+  font-family: system-ui;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 5px;
+}
+
+body section.all section.buttons div.black h2 {
+  font-size: large;
+  font-weight: 500;
+}
+
+body section.all section.buttons div.border-black {
+  margin-top: 20px;
+  font-family: system-ui;
+  width: 99%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+body section.all section.buttons div.border-black h2 {
+  font-size: large;
+  font-weight: 500;
+}
+
+body section.all section.imgs div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section.all section.imgs div div img#top {
+  width: 160px;
+}
+
+body section.all section.imgs div div img#but {
+  width: 196px;
+}
+
+body section.all section.but-men {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: white;
+}
+
+body section.all section.but-men .pluss {
+  width: 80px;
+}
+/*# sourceMappingURL=stale.css.map */

@@ -1,0 +1,80 @@
+body section.fa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body section.fa section.side2 {
+  width: 375px;
+  height: 870px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+body section.fa section.side2 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body section.fa section.side2 header div h3 {
+  font-family: monospace;
+}
+
+body section.fa section.side2 header div img {
+  width: 18px;
+}
+
+body section.fa section.side2 section.back-icon {
+  margin: 20px 0px;
+}
+
+body section.fa section.side2 section.titel {
+  font-family: system-ui;
+  font-size: xx-large;
+}
+
+body section.fa section.side2 section.inputs div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px;
+}
+
+body section.fa section.side2 section.inputs div.e-p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  border: 2px solid black;
+}
+
+body section.fa section.side2 section.inputs div.e-p h4 {
+  color: #5c5c5c;
+  font-family: system-ui;
+  margin-left: 10px;
+}
+
+body section.fa section.side2 section.inputs div#black {
+  background-color: black;
+}
+
+body section.fa section.side2 section.inputs div#black h4 {
+  font-family: system-ui;
+  color: #e3e3e3;
+}
+/*# sourceMappingURL=stayle.css.map */
