@@ -1,8 +1,5 @@
-const data = new XMLHttpRequest();
-data.open("get", "https://goweather.herokuapp.com/weather/Curitiba")
-data.send();
-console.log(data);
-data.onload = function () {
-    const response = this.responseText;
-    console.log(JSON.parse(response))
-}
+    const num1 = 30;
+    const num2 = 20;
+    const num3 = num1 + num2;
+   
+console.log(num3)
