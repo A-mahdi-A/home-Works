@@ -1,0 +1,294 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0%;
+}
+
+body section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body section aside.left {
+  width: calc(50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+body section aside.left div.welcome-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Roboto;
+  line-height: 37.5px;
+}
+
+body section aside.left div.welcome-text h1 {
+  font-size: 32px;
+  color: #2A41CB;
+  margin: 0;
+}
+
+body section aside.left div.welcome-text h5 {
+  margin: 0;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #717171;
+}
+
+body section aside.left div.singIn-singUp {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body section aside.left div.singIn-singUp div.sa {
+  background-color: #F5F6F8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-radius: 16px;
+  padding: 4px;
+}
+
+body section aside.left div.singIn-singUp div.sa div {
+  padding: 0px 44px;
+}
+
+body section aside.left div.singIn-singUp div.sa div a {
+  text-decoration: none;
+}
+
+body section aside.left div.singIn-singUp div.sa div a h3 {
+  font-size: 20px;
+  font-family: Roboto;
+  color: #848A8D;
+}
+
+body section aside.left div.singIn-singUp div.sa div.singup {
+  margin-left: 20px;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.16);
+}
+
+body section aside.left div.singIn-singUp div.sa div.singup h3 {
+  color: #000000;
+}
+
+body section aside.left div.Name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body section aside.left div.Name input {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Roboto;
+  color: #848a8d;
+  background-color: #f5f6f8;
+  border-radius: 16px;
+  border: 0.1px solid white;
+  padding-left: 20px;
+  width: 164px;
+  height: 64px;
+  margin-bottom: 20px;
+}
+
+body section aside.left div.Name input[type=text] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+body section aside.left div.Name input[type=text]:focus {
+  border: 2px solid #2a41cb;
+}
+
+body section aside.left div.input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body section aside.left div.input input {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Roboto;
+  color: #848a8d;
+  background-color: #f5f6f8;
+  border-radius: 16px;
+  border: 0.1px solid white;
+  padding-left: 20px;
+  width: 338px;
+  height: 64px;
+  margin-bottom: 15px;
+}
+
+body section aside.left div.input div.passw img#eys {
+  position: absolute;
+  left: 508px;
+  top: 462px;
+}
+
+body section aside.left div.input div.passw-check img#eys2 {
+  position: absolute;
+  left: 508px;
+  top: 547px;
+}
+
+body section aside.left div.input input[type=email] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+body section aside.left div.input input[type=email]:focus {
+  border: 2px solid #2a41cb;
+}
+
+body section aside.left div.input input[type=password] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+body section aside.left div.input input[type=password]:focus {
+  border: 2px solid #2a41cb;
+}
+
+body section aside.left div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+body section aside.left div a {
+  color: #2A41CB;
+  text-decoration: none;
+}
+
+body section aside.left div input#check {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  margin: 0;
+  margin-right: 5px;
+  border: 1px solid #717171;
+  background-color: #f5f6f8;
+}
+
+body section aside.left div.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body section aside.left div.button button {
+  color: white;
+  font-family: Roboto;
+  background-color: #2a41cb;
+  width: 338px;
+  height: 64ps;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23.44px;
+  border-radius: 16px;
+  padding: 18px 0px;
+  border: none;
+  -webkit-box-shadow: 2px 5px 16px 2px rgba(42, 65, 203, 0.4);
+          box-shadow: 2px 5px 16px 2px rgba(42, 65, 203, 0.4);
+}
+
+body section aside.Right {
+  width: calc(50%);
+  background-color: aquamarine;
+}
+
+body section aside.Right img {
+  height: 743px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=stayle.css.map */

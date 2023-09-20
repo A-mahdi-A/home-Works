@@ -1,0 +1,284 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding-bottom: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body aside {
+  padding-top: 40px;
+  padding-left: 70px;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body aside div#profile {
+  margin-bottom: 280px;
+  font-family: Roboto;
+}
+
+body aside div#profile h1 {
+  color: #2a41cb;
+}
+
+body aside div#profile h5 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #717171;
+}
+
+body aside div.can-switch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+body aside div.can-switch .switch {
+  position: relative;
+  display: inline;
+  width: 49px;
+  height: 19px;
+  margin: 0 10px;
+}
+
+body aside div.can-switch .slider {
+  width: 90px;
+  height: 40px;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50px;
+}
+
+body aside div.can-switch .switch input {
+  display: none;
+}
+
+body aside div.can-switch .slider::before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  left: 5px;
+  bottom: 5px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+body aside div.can-switch input:checked + .slider {
+  background-color: #2a41cb;
+}
+
+body aside div.can-switch input:checked + .slider:before {
+  -webkit-transform: translateX(50px);
+          transform: translateX(50px);
+}
+
+body section.can {
+  margin-left: 300px;
+}
+
+body section.can header {
+  padding-top: 40px;
+  background-color: white;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 850px;
+  font-family: Roboto;
+}
+
+body section.can header div h1 {
+  color: #2a41cb;
+  margin: 0;
+}
+
+body section.can header div.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 69px;
+}
+
+body section.can header div.list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+body section.can header div.list ul li#c {
+  margin-left: 0;
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
+}
+
+body section.can header div.list ul li#c a {
+  color: black;
+}
+
+body section.can header div.list ul li {
+  list-style: none;
+  margin-left: 15px;
+  padding-bottom: 5px;
+}
+
+body section.can header div.list ul li a {
+  text-decoration: none;
+  color: #848a8d;
+}
+
+body section.can header div.list a {
+  text-decoration: none;
+}
+
+body section.can header div.list a div.plus {
+  font-family: Roboto;
+  background-color: #2a41cb;
+  padding: 5px 13px;
+  font-size: 25px;
+  color: white;
+  font-weight: bolder;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 2px 4px #344bcc99;
+          box-shadow: 0px 2px 4px #344bcc99;
+}
+
+body section.can section.recpi {
+  width: 860px;
+  margin-top: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-family: Roboto;
+}
+
+body section.can section.recpi a {
+  text-decoration: none;
+  color: black;
+}
+
+body section.can section.recpi a div.fa {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 8px;
+  width: 172px;
+}
+
+body section.can section.recpi a div.fa div.text {
+  padding: 5px;
+  padding-left: 10px;
+  width: 500;
+}
+
+body section.can section.recpi a div.fa div.text p {
+  color: #717171;
+}
+
+body section.can section.recpi2 {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-family: Roboto;
+}
+
+body section.can section.recpi2 a {
+  text-decoration: none;
+  color: black;
+}
+
+body section.can section.recpi2 a div.fa {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 8px;
+  width: 172px;
+}
+
+body section.can section.recpi2 a div.fa div.text {
+  padding: 5px;
+  padding-left: 10px;
+  width: 500;
+}
+
+body section.can section.recpi2 a div.fa div.text p {
+  color: #717171;
+}
+
+body section.can section.recpi3 {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-family: Roboto;
+}
+
+body section.can section.recpi3 a {
+  text-decoration: none;
+  color: black;
+}
+
+body section.can section.recpi3 a div.fa {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 8px;
+  width: 172px;
+}
+
+body section.can section.recpi3 a div.fa div.text {
+  padding: 5px;
+  padding-left: 10px;
+  width: 500;
+}
+
+body section.can section.recpi3 a div.fa div.text p {
+  color: #717171;
+}
+/*# sourceMappingURL=stayle.css.map */

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../../style/singIn page/style.css">
+    <link rel="stylesheet" href="../../style/sing up page/stayle.css">
 </head>
 
 <body>
@@ -18,12 +18,12 @@
             </div>
             <div class="singIn-singUp">
                 <div class="sa">
-                    <div class="singIn">
-                        <a href="../sing up page/index.html">
+                    <div>
+                        <a href="../singIn page/index.html">
                             <h3>Sign In</h3>
                         </a>
                     </div>
-                    <div>
+                    <div class="singup">
                         <a href="../sing up page/index.html">
                             <h3>Sign Up</h3>
                         </a>
@@ -31,21 +31,32 @@
                 </div>
             </div>
             <form>
+                <div class="Name">
+                    <input type="text" placeholder="First Name" required></input>
+                    <input type="text" placeholder="Last Name" required></input>
+                </div>
                 <div class="input">
-                    <div class="email"><input class="border" id="email" type="email" placeholder="Email Address" required></div>
+                    <div class="email"><input class="border" id="email" type="email" placeholder="Email Address"
+                            required></div>
                     <div class="passw">
                         <input class="border" id="pas" type="password" placeholder="Password" required>
                         <img id="eys" src="../../img/invisible 1.png" alt="">
                     </div>
+                    <div class="passw-check">
+                        <input class="border" id="pas2" type="password" placeholder="Password" required>
+                        <img id="eys2" src="../../img/invisible 1.png" alt="">
+                    </div>
+                    <div><input id="check" type="checkbox" required>I agree to the <a href="#">Terms Of Service ‌</a> and 
+                        <a href="#">‌Privacy Policy</a></div>
                 </div>
-                <div class="button"><button type="submit">Login</button></div>
+               <a href="#"><div class="button" id="sub-btn"><button type="submit">Login</button></div></a>
             </form>
         </aside>
         <aside class="Right">
             <div><img src="../../img/Login 1.png" alt=""></div>
         </aside>
     </section>
-    <script src="../../javascript/singIn page/script.js"></script>
+    <script src="../../javascript/sing up page/script.js"></script>
 </body>
 
 </html>
