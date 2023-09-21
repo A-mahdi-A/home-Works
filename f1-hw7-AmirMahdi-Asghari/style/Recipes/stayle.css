@@ -16,8 +16,8 @@ body {
 }
 
 body aside {
-  padding-top: 40px;
-  padding-left: 70px;
+  padding-top: 60px;
+  padding-left: 110px;
   position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -29,7 +29,7 @@ body aside {
 }
 
 body aside div#profile {
-  margin-bottom: 280px;
+  margin-bottom: 300px;
   font-family: Roboto;
 }
 
@@ -102,11 +102,11 @@ body aside div.can-switch input:checked + .slider:before {
 }
 
 body section.can {
-  margin-left: 300px;
+  margin-left: 340px;
 }
 
 body section.can header {
-  padding-top: 40px;
+  padding-top: 60px;
   background-color: white;
   position: fixed;
   display: -webkit-box;
@@ -167,6 +167,13 @@ body section.can header div.list ul li {
 body section.can header div.list ul li a {
   text-decoration: none;
   color: #848a8d;
+  margin-bottom: 5px;
+}
+
+body section.can header div.list ul li a:hover {
+  color: black;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
 }
 
 body section.can header div.list a {
@@ -187,7 +194,7 @@ body section.can header div.list a div.plus {
 
 body section.can section.recpi {
   width: 860px;
-  margin-top: 250px;
+  margin-top: 270px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
