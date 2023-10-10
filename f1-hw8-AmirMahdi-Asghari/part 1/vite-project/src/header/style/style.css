@@ -1,0 +1,103 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body section {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0px;
+}
+
+body section div#mein {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body section div#mein div img {
+  margin-left: 30px;
+}
+
+body section div#mein div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+body section div#mein div ul li {
+  margin-right: 30px;
+}
+
+body section div#mein div ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+body section div#text-par {
+  margin-left: 818px;
+  border-radius: 10px;
+  padding: 15px;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section div#text-par div#texts {
+  font-family: Roboto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section div#text-par div#texts h3:last-child {
+  margin-right: 10px;
+}
+
+body section div#text-par div#texts h3 {
+  margin-left: 10px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  color: #2a41cb;
+}
+
+body section div#text-par div#texts h3 a {
+  color: #2a41cb;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
