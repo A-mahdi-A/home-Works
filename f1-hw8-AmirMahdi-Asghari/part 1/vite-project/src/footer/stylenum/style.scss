@@ -1,0 +1,26 @@
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.column {
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.column h2 {
+  margin-bottom: 10px;
+}
+
+.column h3 {
+  margin-top: 20px;
+}
+
+  

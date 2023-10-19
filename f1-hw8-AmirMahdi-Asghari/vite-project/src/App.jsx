@@ -1,16 +1,16 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import Heder from "./header/index"
-import foot from "./footer/index"
+import './App.css'
+import WeatherApp from './components/ferstpage'
+import SelectProvince from './SelectProvince';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-   <>
-    <Heder />
-     <foot />
+    <>
+     <WeatherApp></WeatherApp>
     </>
   )
 }
