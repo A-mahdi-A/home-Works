@@ -1,0 +1,78 @@
+$tertiary: #173640;
+$secondary: #06F591;
+$primary: #06F5D9;
+$bacl: #020202;
+$font-family: Roboto;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-family;
+    margin: 0;
+    padding: 0;
+    background-color: #173640;
+
+    header {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        div.meno {
+            ul {
+                display: flex;
+                justify-content: space-around;
+                list-style: none;
+
+                li.dif-color a {
+                    color: #06F5D9;
+                }
+
+                li {
+                    margin-left: 15px;
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        div.UploadButton {
+            display: flex;
+            align-items: center;
+            height: 30px;
+            padding: 17px 15px;
+            border-radius: 10px;
+
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                text-decoration: none;
+                color: $bacl;
+
+                h4 {
+                    margin: 0;
+                    font-size: 15px;
+                }
+
+                img {
+                    height: 20px;
+                    margin-right: 20px;
+                }
+            }
+
+            background-color: $secondary;
+        }
+    }
+
+    // ------------------------------------------------------------
+    section{
+        
+    }
+
+}
