@@ -18,14 +18,15 @@ const HomePage = () => {
             </header>
             <section>
                 <aside className='L-Side'>
-                    <div><div>Best 4k</div>
-                        <div>Wallpapers!</div>
+                    <div id='titr-text'>
+                        <div><h1>Best 4k</h1></div>
+                        <div id='dif-co'><h1>Wallpapers!</h1></div>
                     </div>
                     <div><h2>for the People, by the People.</h2></div>
-                    <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis posuere mi tellus et dictum nam.</p></div>
+                    <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis <br /> posuere mi tellus et dictum nam.</p></div>
                     <div className='button-Explore'>
-                        <div><img src={arow} alt="" /><h5>Explore Wallpapers</h5></div>
-                        <div>Know more</div>
+                        <a href="#"><div id='ex'><img src={arow} alt="" /><h5>Explore Wallpapers</h5></div></a>
+                        <div id='more'><a href="#">Know more</a></div>
                     </div>
                 </aside>
                 <aside className='R-Side'></aside>

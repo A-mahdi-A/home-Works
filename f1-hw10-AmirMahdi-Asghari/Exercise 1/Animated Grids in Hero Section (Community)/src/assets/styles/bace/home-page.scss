@@ -10,7 +10,7 @@ $font-family: Roboto;
 
 body {
     font-family: $font-family;
-    margin: 0;
+    margin: 0px 75px;
     padding: 0;
     background-color: #173640;
 
@@ -18,7 +18,7 @@ body {
         margin-top: 10px;
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
 
         div.meno {
             ul {
@@ -71,8 +71,86 @@ body {
     }
 
     // ------------------------------------------------------------
-    section{
-        
+    section {
+        aside.L-Side {
+            margin-top: 80px;
+
+            h1 {
+                margin: 0;
+            }
+
+            div#titr-text {
+                display: flex;
+                align-items: center;
+                font-size: 50px;
+                color: white;
+                font-weight: 800px;
+
+                div#dif-co {
+                    margin-left: 15px;
+
+                    h1 {
+                        font-size: 60px;
+                        background: -webkit-linear-gradient(rgba(5, 245, 145, 1), rgba(5, 245, 217, 1));
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
+                }
+            }
+
+            div {
+                h2 {
+                    margin: 0;
+                    color: white;
+                    font-size: 38px;
+                    font-weight: 400;
+                    word-spacing: 10px;
+
+                }
+            }
+
+            div {
+                p {
+                    color: white;
+                    word-spacing: 7px;
+                    line-height: 35px;
+                }
+            }
+
+            div.button-Explore {
+
+                display: flex;
+                align-items: center;
+margin-top: 80px;
+                
+
+                a{
+                    text-decoration: none;
+                    color: #020202;
+                    div#ex {
+                    height: 35px;
+                    width: 160px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 40px;
+                    background: linear-gradient(to right, #06F591, #06F5D9);
+border-radius: 10px;
+                    img {
+                        width: 15px;
+                        margin-right: 10px;
+                    }
+
+                }}
+                div#more{
+a{
+    color: white;
+
+}                }
+            }
+        }
+
+        aside.R-Side {}
     }
 
 }
